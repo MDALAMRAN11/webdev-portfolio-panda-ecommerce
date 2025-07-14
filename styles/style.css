@@ -11,7 +11,6 @@ body{
     width: 1200px;
     height: 3016px;
     margin: auto;
-    border: 1px solid red;
 }
 
 /*header*/
@@ -116,6 +115,7 @@ body{
     width: 1000px;
     height: 1638px;
     margin: auto;
+    margin-bottom: 0px;
 }
 .All-categories {
     display: flex;
@@ -130,14 +130,14 @@ body{
     border-radius: 10px;
     margin: auto;
 }
-.main .shoes-nav {
+.main .all-collection-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
     margin-bottom: 0px;
 }
-.main .shoes-collection {
+.main .all-collection {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,18 +146,73 @@ body{
     gap: 20px;
     margin: auto;
 }
-.main .shoes-collection .sub-collection img{
+.main .all-collection .sub-collection img{
 width: 320px;
 }
-.main .shoes-collection .sub-collection {
+.main .all-collection .sub-collection {
     background-color: #f1f1f1;
     border-radius: 20px;
 }
-.main .shoes-collection .sub-collection button {
+.main .all-collection .sub-collection button {
     padding: 5px 20px;
     background-color: black;
     color: white;
     margin-bottom: 15px;
     border: none;
     border-radius: 10px;
+}
+
+/*footer*/
+.footer {
+    height: 600px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    box-sizing: border-box;
+}
+.footer section {
+    width: 1100px;
+    height: 600px;
+    margin: auto;
+    background-color: #fff2f1;
+}
+.footer .subscribe {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+footer .subscribe h3 {
+    font-size: 43px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+footer .subscribe p {
+    font-size: 16px;
+    font-weight: 200;
+}
+footer .subscribe .all-input {
+    display: flex;
+    width: 100%;
+    max-width: 325px;
+    height: 40px;
+}
+footer .subscribe .all-input .email {
+    flex: 1;
+    padding: 8px;
+    font-size: 14px;
+}
+footer .subscribe .all-input .button {
+  width: 100px;
+  padding: 8px;
+  font-size: 14px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
